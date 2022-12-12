@@ -1,0 +1,71 @@
+:root {
+  --main-color: rgb(53, 63, 201);
+  --secondary-color: rgba(22, 214, 224, 0.676);
+  --text-color: rgb(50, 217, 156);
+  --thirt-color: rgb(249, 165, 113);
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+
+.accion {
+  background-color: rgb(120, 227, 192);
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 5fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "accionseccion1 accionseccion2 accionseccion4" "elecciononline elecciononline elecciononline";
+  align-content: space-between;
+  max-height: 40%;
+}
+.accion .accionseccion1 {
+  grid-area: accionseccion1;
+  background-color: #D1DBBD;
+  max-width: 200px;
+  max-height: 200px;
+}
+.accion .accionseccion2 {
+  grid-area: accionseccion2;
+  background-color: #91AA9D;
+  max-width: 200px;
+  max-height: 200px;
+}
+.accion .accionseccion4 {
+  grid-area: accionseccion4;
+  background-color: #193441;
+  max-width: 200px;
+  max-height: 200px;
+}
+.accion .buttonaccion {
+  background-color: black;
+  color: aliceblue;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 800;
+}
+
+.listamenu {
+  width: 16rem;
+  margin: 4px;
+  size: 10rem;
+}
+
+.elecciononline {
+  grid-area: elecciononline;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.canasta {
+  width: 2em;
+  height: 2em;
+  margin-right: 1em;
+}
+
+.cardsrow {
+  display: inline;
+}/*# sourceMappingURL=styles.css.map */
