@@ -50,4 +50,103 @@ consultarMenus ().then((menus) => {
           });
         });
       }
+
+      function btnQuiero(menus) {
+        const btnAgregar = document.querySelectorAll(".agregar-favorito");
+      
+        btnQuiero.forEach((btn) => {
+          btn.onclick = (e) => {
+            e.preventDefault();
+            const menuSeleccionado = menus.find(
+              (men) => men.id === parseInt(btn.id)
+            );
+            const menuCarrito = { ...menuSeleccionado, cantidad: 1 };
+            const indexCarrito = carrito.findIndex(
+              (men) => men.id === menuCarrito.id
+            );
+            if (indexCarrito === -1) {
+              carrito.push(menuCarrito);
+            } else {
+              carrito[indexCarrito].cantidad++;
+            }
+            localStorage.setItem("carrito", JSON.stringify(carrito));
+            actualizarCarrito();
+            imprimirCarrito();
+          };
+        });
+      }
+
+function actualizarCarrito() {
+  countCarrito.innerHTML = carrito.length;
+}
+
+function imprimirCarrito() {
+  listaCarrito.innerHTML = "";
+  carrito.forEach((item) => {
+    listaCarrito.innerHTML += `<li><div><img src="${item.imagen}" /> ${
+      item.opcion
+    } x ${item.cantidad}</div> <div>$${
+      item.cantidad * item.valor
+    }<i class='bx bxs-trash' data-id='${item.opcion}'></i></div></li>`;
+  });
+  if (carrito !== []) {
+    const btnEliminar = document.querySelectorAll(".bxs-trash");
+    btnEliminar.forEach((btn) => {
+      btn.onclick = (e) => {
+        const menuId = e.target.getAttribute("data-id");
+        carrito = carrito.filter((prod) => prod.id != productoId);
+        localStorage.setItem("carrito", JSON.stringify(carrito));
+        actualizarCarrito();
+        imprimirCarrito();
+      };
+    });
+  }
+  crearTotal();
+
+}
+
+function crearTotal() {
+    sumatotal = 0;
+    carrito.forEach((menu) => {
+      sumatotal += menu.valor * menu.cantidad;
+    });
+    const total = document.querySelector("#total");
+  
+    sumatotal !== 0 ? carritoLleno() : carritoVacio();
+  }
+  
+  function carritoLleno() {
+    total.innerHTML = `<span>El total es de $${sumatotal}</span>`;
+    btnFinalizar.style.display = "block";
+  }
+  
+  function carritoVacio() {
+    total.innerHTML = `No hay menu selecionado`;
+    btnFinalizar.style.display = "none";
+  }
+  
+  function finalizarQuiero() {
+    swal(
+      "Elegiste el Menu correctamente",
+      "Pronto llegara a su mesa el pedido",
+      "success"
+    );
+    carrito = [];
+    localStorage.setItem("carrito", JSON.stringify(carrito));
+    actualizarCarrito();
+    imprimirCarrito();
+    carritoVacio();
+  }
+  
+  btnFinalizar.addEventListener("click", finalizarQuiero);
+  
+  actualizarCarrito();
+  imprimirCarrito();
+  
+  catmenu1.addEventListener("click", () => buscarCategoria("menu1"));
+  catmenu2.addEventListener("click", () => buscarCategoria("menu2"));
+  catmenu3.addEventListener("click", () => buscarCategoria("menu3"));
+  catmenu4.addEventListener("click", () => buscarCategoria("menu4"));
+
+
    
