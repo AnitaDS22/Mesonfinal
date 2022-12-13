@@ -81,11 +81,10 @@ function actualizarCarrito() {
 }
 
 function imprimirCarrito() {
-  listaCarrito.innerHTML = "";
+  listaCarrito.innerHTML = " ";
   carrito.forEach((item) => {
     listaCarrito.innerHTML += `<li><div><img src="${item.imagen}" /> ${
-      item.opcion
-    } x ${item.cantidad}</div> <div>$${
+      item.opcion} x ${item.cantidad}</div> <div>$${
       item.cantidad * item.valor
     }<i class='bx bxs-trash' data-id='${item.opcion}'></i></div></li>`;
   });
@@ -94,7 +93,7 @@ function imprimirCarrito() {
     btnEliminar.forEach((btn) => {
       btn.onclick = (e) => {
         const menuId = e.target.getAttribute("data-id");
-        carrito = carrito.filter((prod) => prod.id != productoId);
+        carrito = carrito.filter((men) => men.id != menuId);
         localStorage.setItem("carrito", JSON.stringify(carrito));
         actualizarCarrito();
         imprimirCarrito();
@@ -147,6 +146,9 @@ function crearTotal() {
   catmenu2.addEventListener("click", () => buscarCategoria("menu2"));
   catmenu3.addEventListener("click", () => buscarCategoria("menu3"));
   catmenu4.addEventListener("click", () => buscarCategoria("menu4"));
+
+
+
 
 
    
