@@ -7,3 +7,5 @@ const consultarMenus = async () => {
     return menus;
 };
 
+const menus = consultarMenus ();
+const countCarrito = document.querySelector ("#countCarrito");

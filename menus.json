@@ -1,0 +1,52 @@
+[
+    {
+        "opcion": "1",
+        "entrada":"Ensalada",
+        "segundoplato": "Noquis con Papa",
+        "postre": "Helado", 
+        "valor": 1000,
+        "calorias":  10,
+        "imagen": "./images/ñoquis1.jpg",
+        "id": 1
+        
+    },
+
+    {
+        "opcion": "2",
+        "entrada":"Ensalada",
+        "segundoplato": "Bife de chorizo",
+        "postre": "flan", 
+        "valor": 1500,
+        "calorias":  15,
+        "imagen": "./images/carne1.jpg",
+        "id": 2
+
+    },
+
+    {
+        "opcion": "3",
+        "entrada":"Sopa Calabaza",
+        "segundoplato": "Mix Verduras",
+        "postre": "torta", 
+        "valor": 1200,
+        "calorias":  5,
+        "imagen": "./images/sopacalabaza1",
+        "id": 3
+
+    },
+
+    {
+        "opcion": "4",
+        "entrada":"Mix picada",
+        "segundoplato": "Hamburquesa",
+        "postre": "Panqueque", 
+        "valor": 1800,
+        "calorias":  20,
+        "imagen": "./images/hamburguesa4.jpg",
+        "id": 4
+
+    }
+
+
+
+]

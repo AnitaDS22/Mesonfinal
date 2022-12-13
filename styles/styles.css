@@ -9,6 +9,22 @@ body {
   background-color: var(--secondary-color);
 }
 
+.header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.header .container {
+  width: 100%;
+  display: flex;
+  padding: 20px 0px;
+  max-width: 1110px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .accion {
   background-color: rgb(120, 227, 192);
   display: grid;
@@ -67,5 +83,6 @@ body {
 }
 
 .cardsrow {
-  display: inline;
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=styles.css.map */
