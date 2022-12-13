@@ -155,4 +155,90 @@ body {
 .cardsrow {
   display: flex;
   flex-direction: row;
+}
+
+nav {
+  background-color: #f5f6fe !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+nav ul li {
+  margin: auto;
+  background-color: white;
+  border-radius: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  width: 90%;
+  padding: 1em;
+  font-size: 1em;
+  color: #2a2b3d;
+  box-shadow: 0 2px 14px rgba(216, 217, 255, 0.66);
+}
+
+nav ul li div {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+nav ul li img {
+  width: 40px;
+}
+
+nav ul li .bx {
+  justify-self: end;
+  font-size: 24px;
+  color: rgb(245, 0, 0);
+  cursor: pointer;
+}
+
+nav a {
+  color: white !important;
+  margin-top: 2em;
+  font-size: 1em !important;
+}
+
+nav #total {
+  margin-top: 1em;
+  font-size: 1.2em;
+  color: #2a2b3d;
+  font-weight: bold;
+}
+
+.categorias {
+  margin: 0 13%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 0.8em 1em;
+}
+
+.categorias a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3d53eb;
+  font-size: 0.9em;
+  font-weight: 700;
+  border-radius: 0.35em;
+  gap: 0;
+  border: 1px solid rgb(238, 238, 238);
+  padding: 0.25em 1em;
+}
+
+.categorias a:hover {
+  gap: 0.5em;
+  border-color: #3d53eb;
 }/*# sourceMappingURL=styles.css.map */
