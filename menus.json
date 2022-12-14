@@ -30,7 +30,7 @@
         "postre": "torta", 
         "valor": 1200,
         "calorias":  5,
-        "imagen": "./images/sopacalabaza1",
+        "imagen": "./images/sopacalabaza1.jpg",
         "id": 3
 
     },
@@ -42,7 +42,7 @@
         "postre": "Panqueque", 
         "valor": 1800,
         "calorias":  20,
-        "imagen": "./images/hamburguesa4.jpg",
+        "imagen": "./images/hamburguesa1.jpg",
         "id": 4
 
     }
