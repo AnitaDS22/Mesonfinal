@@ -62,4 +62,110 @@
   .bars__menu .bx:hover {
     cursor: pointer;
   }
+
+  .header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.1);
+  }
+  .header .container {
+    width: 100%;
+    display: flex;
+    padding: 20px 0px;
+    max-width: 1110px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media (max-width: 1200px) {
+    .header .container {
+      max-width: 1110px;
+      padding: 20px 40px;
+    }
+  }
+  @media (max-width: 992px) {
+    .header .container {
+      max-width: 1110px;
+      padding: 20px 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .header .container {
+      max-width: 1110px;
+      padding: 20px 20px;
+    }
+  }
+  .header .container a {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    color: #2a2b3d;
+    text-transform: lowercase;
+  }
+  .header .container a h1 {
+    font-size: 1.5em;
+  }
+  .header .container a img {
+    width: 50px;
+  }
+  
+  nav {
+    background-color: #f5f6fe !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+  }
+  nav ul li {
+    margin: auto;
+    background-color: white;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    width: 90%;
+    padding: 1em;
+    font-size: 1em;
+    color: #2a2b3d;
+    box-shadow: 0 2px 14px rgba(216, 217, 255, 0.66);
+  }
+  nav ul li div {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  nav ul li img {
+    width: 40px;
+  }
+  nav ul li .bx {
+    justify-self: end;
+    font-size: 24px;
+    color: rgb(245, 0, 0);
+    cursor: pointer;
+  }
+  nav a {
+    color: white !important;
+    margin-top: 2em;
+    font-size: 1em !important;
+  }
+  nav #total {
+    margin-top: 1em;
+    font-size: 1.2em;
+    color: #2a2b3d;
+    font-weight: bold;
+  }
+  
+  #btn-finalizar {
+    display: none;
+  }
   
