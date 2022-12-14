@@ -54,7 +54,7 @@ function buscarCategoria(opcion) {
 function btnQuiero(menus) {
   const btnAgregar = document.querySelectorAll(".agregar-favorito");
 
-  btnQuiero.forEach((btn) => {
+  btnAgregar.forEach((btn) => {
     btn.onclick = (e) => {
       e.preventDefault();
       const menuSeleccionado = menus.find(
