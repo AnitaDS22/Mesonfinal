@@ -6,7 +6,7 @@
         "postre": "Helado", 
         "valor": 1000,
         "calorias":  10,
-        "imagen": "./images/ñoquis1.jpg",
+        "imagen": "./images/noquis2.jpg",
         "id": 1
         
     },
@@ -18,7 +18,7 @@
         "postre": "flan", 
         "valor": 1500,
         "calorias":  15,
-        "imagen": "./images/carne1.jpg",
+        "imagen": "./images/carne2.jpg",
         "id": 2
 
     },
@@ -30,7 +30,7 @@
         "postre": "torta", 
         "valor": 1200,
         "calorias":  5,
-        "imagen": "./images/sopacalabaza1.jpg",
+        "imagen": "./images/sopacalabaza2.jpg",
         "id": 3
 
     },
@@ -42,7 +42,7 @@
         "postre": "Panqueque", 
         "valor": 1800,
         "calorias":  20,
-        "imagen": "./images/hamburguesa1.jpg",
+        "imagen": "./images/hamburguesa2.jpg",
         "id": 4
 
     }
