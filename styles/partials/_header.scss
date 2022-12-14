@@ -54,6 +54,13 @@
     font-weight: 900;
     text-transform: uppercase;
   }
+
+  .bars__menu {
+display: flex;
+justify-content: flex-end;
+
+
+  }
   
   .bars__menu .bx {
     color: #2a2b3d;

@@ -83,7 +83,7 @@ function actualizarCarrito() {
 function imprimirCarrito() {
   listaCarrito.innerHTML = "";
   carrito.forEach((item) => {
-    listaCarrito.innerHTML += `<li><div><img src="${item.image}" /> ${item.opcion} x ${item.cantidad}</div> <div>$${item.cantidad * item.valor
+    listaCarrito.innerHTML += `<li><div><img src="${item.imagen}" /> ${item.opcion} x ${item.cantidad}</div> <div>$${item.cantidad * item.valor
       }<i class='bx bxs-trash' data-id='${item.opcion}'></i></div></li>`;
   });
   if (carrito !== []) {
@@ -123,7 +123,7 @@ function carritoVacio() {
 }
 
 function finalizarQuiero() {
-  swal(
+  swal.fire(
     "Elegiste el Menu correctamente",
     "Pronto llegara a su mesa el pedido",
     "success"
