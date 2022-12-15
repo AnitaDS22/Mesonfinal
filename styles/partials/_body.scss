@@ -1,5 +1,5 @@
 .menu__card {
-    background-color: white;
+    background-color: #a5eea0;
     display: flex;
     flex-direction: column;
     padding: 2.5em 1.87em;
@@ -13,10 +13,10 @@
     cursor: pointer;
   }
   .menu__card i {
-    background: linear-gradient(180deg, #6a11cb 21.85%, #2575fc 104.32%);
+    background: linear-gradient(180deg, #77dd77 21.85%, #a5eea0 104.32%);
     width: 74px;
     height: 74px;
-    color: white;
+    color: #a5eea0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,15 +51,15 @@
     }
   }
   .menu__card:hover {
-    background: linear-gradient(180deg, #6a11cb 21.85%, #2575fc 104.32%);
+    background: linear-gradient(180deg, #77dd77 21.85%, #a5eea0 104.32%);
   }
   .menu__card:hover i {
-    background: white;
-    color: #6a11cb;
+    background: #a5eea0;
+    color: #77dd77;
   }
   .menu__card:hover h3,
   .menu__card:hover p {
-    color: white;
+    color: #a5eea0;
   }
 
 
@@ -112,7 +112,7 @@
     width: 100%;
     max-width: 250px;
     max-height: 400px;
-    background-color: white;
+    background-color: #a5eea0;
     border-radius: 0.35em;
     box-shadow: 0 2px 14px rgba(216, 217, 255, 0.66);
     padding: 2em;
@@ -151,7 +151,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #3d53eb;
+    color: #a5eea0;
     font-size: 0.9em;
     font-weight: 700;
     border-radius: 0.35em;
@@ -161,5 +161,5 @@
   }
   .categorias a:hover {
     gap: 0.5em;
-    border-color: #3d53eb;
+    border-color: #a5eea0;
   }
