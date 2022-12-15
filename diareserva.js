@@ -65,9 +65,6 @@ class Clientes {
       tittle: `bienvenido/a ${reservadelaCasa.nombre}`,
       text:  `el dia ${reservadelaCasa.dia} tienen una reserva a las ${reservadelaCasa.hora} para  ${reservadelaCasa.cantidad}`,
     })
-
-
-    //alert(`bienvenido/a ${reservadelaCasa.nombre}, el dia ${reservadelaCasa.dia} tienen una reserva a las ${reservadelaCasa.hora} para  ${reservadelaCasa.cantidad}`)
   
     inputNombre.value = '';
     inputcantidad.value = '';

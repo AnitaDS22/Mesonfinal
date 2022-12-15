@@ -128,6 +128,7 @@ function finalizarQuiero() {
     "Elegiste el Menu correctamente",
     "Pronto llegara a su mesa el pedido",
     "success"
+    
   );
   carrito = [];
   localStorage.setItem("carrito", JSON.stringify(carrito));
