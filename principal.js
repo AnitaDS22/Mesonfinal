@@ -1,4 +1,3 @@
-
 // Llamar archivo Json con async
 
 const consultarMenus = async () => {
@@ -36,18 +35,19 @@ consultarMenus().then((menus) => {
 function buscarCategoria(opcion) {
   menusContainer.innerHTML = "";
   consultarMenus().then((menus) => {
-    menus = menus.filter((menu) => menu.opcion === opcion);
+    menus = menus.filter((menu) => menu.categoria === opcion);
     menus.forEach((y) => {
       menusContainer.innerHTML += `<div class="menu__card" >
             <h3>${y.segundoplato}...</h3>
             <img src="${y.imagen}" />
             <div>
             <p class="valor_precio">$${y.valor}</p>
-            <a href='#' class='btn-primary agregar-favorito' id='${y.opcion}'>QUIERO</a>
+            <a href='#' class='btn-primary agregar-favorito' id='${y.id}'>QUIERO</a>
             </div>
             
           </div>`;
     });
+    btnQuiero(menus);
   });
 }
 
@@ -57,9 +57,7 @@ function btnQuiero(menus) {
   btnAgregar.forEach((btn) => {
     btn.onclick = (e) => {
       e.preventDefault();
-      const menuSeleccionado = menus.find(
-        (men) => men.id === parseInt(btn.id)
-      );
+      const menuSeleccionado = menus.find((men) => men.id === parseInt(btn.id));
       const menuCarrito = { ...menuSeleccionado, cantidad: 1 };
       const indexCarrito = carrito.findIndex(
         (men) => men.id === menuCarrito.id
@@ -83,8 +81,11 @@ function actualizarCarrito() {
 function imprimirCarrito() {
   listaCarrito.innerHTML = "";
   carrito.forEach((item) => {
-    listaCarrito.innerHTML += `<li><div><img src="${item.imagen}" /> ${item.opcion} x ${item.cantidad}</div> <div>$${item.cantidad * item.valor
-      }<i class='bx bxs-trash' data-id='${item.opcion}'></i></div></li>`;
+    listaCarrito.innerHTML += `<li><div><img src="${item.imagen}" /> ${
+      item.opcion
+    } x ${item.cantidad}</div> <div>$${
+      item.cantidad * item.valor
+    }<i class='bx bxs-trash' data-id='${item.opcion}'></i></div></li>`;
   });
   if (carrito !== []) {
     const btnEliminar = document.querySelectorAll(".bxs-trash");
@@ -99,7 +100,6 @@ function imprimirCarrito() {
     });
   }
   crearTotal();
-
 }
 
 function crearTotal() {
@@ -140,14 +140,7 @@ btnFinalizar.addEventListener("click", finalizarQuiero);
 actualizarCarrito();
 imprimirCarrito();
 
-catmenu1.addEventListener("click", () => buscarCategoria("menu1"));
-catmenu2.addEventListener("click", () => buscarCategoria("menu2"));
-catmenu3.addEventListener("click", () => buscarCategoria("menu3"));
-catmenu4.addEventListener("click", () => buscarCategoria("menu4"));
-
-
-
-
-
-
-
+catmenu1.addEventListener("click", () => buscarCategoria("pastas"));
+catmenu2.addEventListener("click", () => buscarCategoria("ensalada"));
+catmenu3.addEventListener("click", () => buscarCategoria("sopa"));
+catmenu4.addEventListener("click", () => buscarCategoria("hamburguesa"));

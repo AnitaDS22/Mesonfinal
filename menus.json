@@ -1,52 +1,93 @@
 [
-    {
-        "opcion": "1",
-        "entrada":"Ensalada",
-        "segundoplato": "Noquis con Papa",
-        "postre": "Helado", 
-        "valor": 1000,
-        "calorias":  10,
-        "imagen": "./images/noquis2.jpg",
-        "id": 1
-        
-    },
+  {
+    "opcion": "1",
+    "entrada": "Ensalada",
+    "segundoplato": "Noquis con Papa",
+    "postre": "Helado",
+    "valor": 1000,
+    "calorias": 10,
+    "imagen": "./images/noquis2.jpg",
+    "id": 1,
+    "categoria": "pastas"
+  },
+  {
+    "opcion": "1",
+    "entrada": "Ensalada",
+    "segundoplato": "Noquis con Papa",
+    "postre": "Helado",
+    "valor": 1000,
+    "calorias": 10,
+    "imagen": "./images/noquis2.jpg",
+    "id": 5,
+    "categoria": "pastas"
+  },
 
-    {
-        "opcion": "2",
-        "entrada":"Ensalada",
-        "segundoplato": "Bife de chorizo",
-        "postre": "flan", 
-        "valor": 1500,
-        "calorias":  15,
-        "imagen": "./images/carne2.jpg",
-        "id": 2
+  {
+    "opcion": "2",
+    "entrada": "Ensalada",
+    "segundoplato": "Bife de chorizo",
+    "postre": "flan",
+    "valor": 1500,
+    "calorias": 15,
+    "imagen": "./images/carne2.jpg",
+    "id": 2,
+    "categoria": "ensalada"
+  },
+  {
+    "opcion": "2",
+    "entrada": "Ensalada",
+    "segundoplato": "Bife de chorizo",
+    "postre": "flan",
+    "valor": 1500,
+    "calorias": 15,
+    "imagen": "./images/carne2.jpg",
+    "id": 6,
+    "categoria": "ensalada"
+  },
 
-    },
+  {
+    "opcion": "3",
+    "entrada": "Sopa Calabaza",
+    "segundoplato": "Mix Verduras",
+    "postre": "torta",
+    "valor": 1200,
+    "calorias": 5,
+    "imagen": "./images/sopacalabaza2.jpg",
+    "id": 3,
+    "categoria": "sopa"
+  },
+  {
+    "opcion": "3",
+    "entrada": "Sopa Calabaza",
+    "segundoplato": "Mix Verduras",
+    "postre": "torta",
+    "valor": 1200,
+    "calorias": 5,
+    "imagen": "./images/sopacalabaza2.jpg",
+    "id": 7,
+    "categoria": "sopa"
+  },
 
-    {
-        "opcion": "3",
-        "entrada":"Sopa Calabaza",
-        "segundoplato": "Mix Verduras",
-        "postre": "torta", 
-        "valor": 1200,
-        "calorias":  5,
-        "imagen": "./images/sopacalabaza2.jpg",
-        "id": 3
-
-    },
-
-    {
-        "opcion": "4",
-        "entrada":"Mix picada",
-        "segundoplato": "Hamburquesa",
-        "postre": "Panqueque", 
-        "valor": 1800,
-        "calorias":  20,
-        "imagen": "./images/hamburguesa2.jpg",
-        "id": 4
-
-    }
-
-
-
+  {
+    "opcion": "4",
+    "entrada": "Mix picada",
+    "segundoplato": "Hamburquesa",
+    "postre": "Panqueque",
+    "valor": 1800,
+    "calorias": 20,
+    "imagen": "./images/hamburguesa2.jpg",
+    "id": 4,
+    "categoria": "hamburguesa"
+  },
+  {
+    "opcion": "4",
+    "entrada": "Mix picada",
+    "segundoplato": "Hamburquesa",
+    "postre": "Panqueque",
+    "valor": 1800,
+    "calorias": 20,
+    "imagen": "./images/hamburguesa2.jpg",
+    "id": 8,
+    "categoria": "hamburguesa"
+  }
 ]
