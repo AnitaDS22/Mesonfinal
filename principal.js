@@ -141,6 +141,8 @@ btnFinalizar.addEventListener("click", finalizarQuiero);
 actualizarCarrito();
 imprimirCarrito();
 
+
+
 catmenu1.addEventListener("click", () => buscarCategoria("pastas"));
 catmenu2.addEventListener("click", () => buscarCategoria("ensalada"));
 catmenu3.addEventListener("click", () => buscarCategoria("sopa"));
