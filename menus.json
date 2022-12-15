@@ -11,7 +11,7 @@
     "categoria": "pastas"
   },
   {
-    "opcion": "1",
+    "opcion": "2",
     "entrada": "Ensalada",
     "segundoplato": "Ravioles",
     "postre": "Helado",
@@ -23,7 +23,7 @@
   },
 
   {
-    "opcion": "2",
+    "opcion": "3",
     "entrada": "Ensalada",
     "segundoplato": "Bife de chorizo",
     "postre": "flan",
@@ -34,9 +34,9 @@
     "categoria": "ensalada"
   },
   {
-    "opcion": "2",
+    "opcion": "4",
     "entrada": "Ensalada",
-    "segundoplato": "Bife de chorizo",
+    "segundoplato": "Steak asado",
     "postre": "flan",
     "valor": 1500,
     "calorias": 15,
@@ -46,7 +46,7 @@
   },
 
   {
-    "opcion": "3",
+    "opcion": "5",
     "entrada": "Sopa Calabaza",
     "segundoplato": "Mix Verduras",
     "postre": "torta",
@@ -57,9 +57,9 @@
     "categoria": "sopa"
   },
   {
-    "opcion": "3",
+    "opcion": "6",
     "entrada": "Sopa Calabaza",
-    "segundoplato": "Mix Verduras",
+    "segundoplato": "Mix Verduras con huevo",
     "postre": "torta",
     "valor": 1200,
     "calorias": 5,
@@ -69,7 +69,7 @@
   },
 
   {
-    "opcion": "4",
+    "opcion": "7",
     "entrada": "Mix picada",
     "segundoplato": "Hamburquesa",
     "postre": "Panqueque",
@@ -80,9 +80,9 @@
     "categoria": "hamburguesa"
   },
   {
-    "opcion": "4",
+    "opcion": "8",
     "entrada": "Mix picada",
-    "segundoplato": "Hamburquesa",
+    "segundoplato": "Hamburquesa con papas",
     "postre": "Panqueque",
     "valor": 1800,
     "calorias": 20,

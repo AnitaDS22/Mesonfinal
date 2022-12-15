@@ -24,6 +24,7 @@ consultarMenus().then((menus) => {
         <h3> ${menu.opcion}</h3>
         <img src="${menu.imagen}"/>
         <div>
+        <p class="valor_precio" > ${menu.segundoplato}</p>
         <p class="valor_precio" > $${menu.valor}</p>
         <a href='#' class='btn-primary agregar-favorito' id='${menu.id}'>QUIERO</a>
         </div>
