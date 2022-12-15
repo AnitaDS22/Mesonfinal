@@ -22,7 +22,7 @@
   .btn-primary {
     background: linear-gradient(90deg, rgb(19, 138, 96) 0%, rgb(23, 213, 168) 100%);
     background-size: 110%;
-    color: #cfffca;
+    color: #a5eea0;
     font-size: 14px;
     line-height: 1em;
     padding: 1em 2em;
@@ -46,7 +46,7 @@
   }
   .btn-secondary:hover {
     background: linear-gradient(90deg, rgb(19, 138, 96) 0%, rgb(23, 213, 168) 100%);
-    color: #cfffca;
+    color: #a5eea0;
     font-size: 14px;
     line-height: 1em;
     padding: 1em 2em;
@@ -71,7 +71,7 @@ justify-content: flex-end;
   }
 
   .header {
-    background-color: #cfffca;
+    background-color: #a5eea0;
     position: fixed;
     width: 100%;
     z-index: 2;
@@ -134,7 +134,7 @@ justify-content: flex-end;
   }
   nav ul li {
     margin: auto;
-    background-color: #cfffca;
+    background-color: #a5eea0;
     border-radius: 0.5em;
     display: flex;
     align-items: center;
@@ -161,7 +161,7 @@ justify-content: flex-end;
     cursor: pointer;
   }
   nav a {
-    color: #cfffca !important;
+    color: #a5eea0 !important;
     margin-top: 2em;
     font-size: 1em !important;
   }
