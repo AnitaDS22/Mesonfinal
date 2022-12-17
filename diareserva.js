@@ -64,6 +64,7 @@ class Clientes {
     Swal.fire ({
       tittle: `bienvenido/a ${reservadelaCasa.nombre}`,
       text:  `el dia ${reservadelaCasa.dia} tienen una reserva a las ${reservadelaCasa.hora} para  ${reservadelaCasa.cantidad}`,
+      
     })
   
     inputNombre.value = '';

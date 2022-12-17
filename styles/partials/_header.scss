@@ -58,17 +58,23 @@
   .bars__menu {
 display: flex;
 justify-content: flex-end;
-
-
-  }
   
   .bars__menu .bx {
     color: #2a2b3d;
-    font-size: 32px;
+    font-size: 40px;
   }
   .bars__menu .bx:hover {
     cursor: pointer;
   }
+.canasta {
+  width: 100px;
+  height: 100px;
+
+
+}
+
+  }
+
 
   .header {
     background-color: #a5eea0;
