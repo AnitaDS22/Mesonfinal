@@ -20,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
+    font-size: 6em;
     border-radius: 0.175em;
   }
   .menu__card h3 {
@@ -152,7 +152,7 @@
     align-items: center;
     justify-content: center;
     color: #a5eea0;
-    font-size: 3em;
+    font-size: 5em;
     font-weight: 700;
     border-radius: 0.35em;
     gap: 0;
@@ -170,7 +170,7 @@
     position: relative;
     height: 150px;
     padding: 0 29px 10px;
-    background-color: #77dd77 important!;
+    background-color: #77dd77;
 max-width: 900px;
 margin: 1em;
 
@@ -185,4 +185,14 @@ max-width: 900px;
 margin: 1em;
 
 }
+}
+
+.containerprincipal {
+
+  .total{
+font-size: 30px;
+font-weight: 500;
+color: red;
+
+  }
 }
