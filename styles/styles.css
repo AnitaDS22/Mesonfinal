@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+@import "./partials/variables";
+@import "./partials/header.scss";
+@import "./partials/body.scss";
+
+body { background: linear-gradient(90deg, greenyellow, green )};
+
 * {
   margin: 0;
   padding: 0;
@@ -57,6 +64,8 @@
 
 .containerprincipal h2 {
   width: 50%;
+  font-style: italic;
+
 }
 
 .bars__menu img {
@@ -79,33 +88,35 @@
   background-color: #42ab49;
   color: #a5eea0;
   text-decoration: none;
-  padding: 0.5em 1em;
+  padding: 0.5em 2em;
   border-radius: 0.5em;
 }
 
 .menus__container {
   display: flex;
-  padding-top: 50px;
+  padding-top: 10px;
   flex-flow: row wrap;
-  gap: 2em;
+  gap: 1em;
   justify-content: space-around;
 }
 
 .menu__card {
   border: 1px solid #42ab49;
   background-color: #42ab49;
-  color: #a5eea0;
-  min-width: 300px;
+  color: #080a08;
+  min-width: 500px;
+  min-height: 200px;
   border-radius: 0.5em;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 5px;
 }
 
 .menu__card a {
   color: #42ab49;
-  padding: 0.5em 1em;
+  padding: 0.6em 1em;
   border-radius: 0.5em;
   text-decoration: none;
   background-color: #a5eea0;

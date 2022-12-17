@@ -152,7 +152,7 @@
     align-items: center;
     justify-content: center;
     color: #a5eea0;
-    font-size: 0.9em;
+    font-size: 3em;
     font-weight: 700;
     border-radius: 0.35em;
     gap: 0;
@@ -165,13 +165,24 @@
   }
 
   .accionseccion4 {
-max-width: 1000px;
-padding: 1em;
-background-color: #77dd77;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 150px;
+    padding: 0 29px 10px;
+    background-color: #77dd77 important!;
+max-width: 900px;
 margin: 1em;
 
-.buttonaccion{
+.buttonaccion {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  min-height: 150px;
+  padding: 0 29px 10px;
   background-color: #77dd77;
-  margin: 1em;
+max-width: 900px;
+margin: 1em;
+
 }
-  }
+}
