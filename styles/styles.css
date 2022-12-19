@@ -45,6 +45,7 @@ body { background: linear-gradient(90deg, greenyellow, green )};
 .nav__list li {
   border: 1px solid ;
   background-color: #42ab49;
+  font-size: 25px;
   color: #a5eea0;
   min-width: 300px;
   border-radius: 0.5em;
@@ -52,6 +53,11 @@ body { background: linear-gradient(90deg, greenyellow, green )};
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.nav__list .bxs-trash {
+  font-size: 2em;
+  color: #080a08;
 }
 
 .containerprincipal {
@@ -125,3 +131,5 @@ body { background: linear-gradient(90deg, greenyellow, green )};
 #total {
   text-align: center;
 }
+
+

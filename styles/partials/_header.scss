@@ -17,6 +17,14 @@
     flex-direction: column;
     text-align: center;
     align-items: flex-start;
+  .bx {
+  
+.bxs-trash {
+width: 30px;
+height: 30px;
+}
+  }
+  
   }
 
   .btn-primary {
@@ -66,13 +74,6 @@ justify-content: flex-end;
   .bars__menu .bx:hover {
     cursor: pointer;
   }
-.canasta {
-  width: 100px;
-  height: 100px;
-
-
-}
-
   }
 
 
@@ -183,3 +184,25 @@ justify-content: flex-end;
     display: none;
   }
   
+  .accionseccion4 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 300px;
+    padding: 0 29px 10px;
+    background-color: #77dd77 !important;
+max-width: 900px;
+margin: 1em;
+
+.buttonaccion {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  min-height: 150px;
+  padding: 0 29px 10px;
+  background-color: #77dd77;
+max-width: 900px;
+margin: 1em;
+
+}
+}

@@ -114,9 +114,12 @@ function crearTotal() {
 }
 
 function carritoLleno() {
-  total.innerHTML = `<span>El total es de $${sumatotal}</span>`;
+
+  total.innerHTML = `<span class="totalfinal" >El total es de $${sumatotal}</span>`;
   btnFinalizar.style.display = "block";
 }
+
+
 
 function carritoVacio() {
   total.innerHTML = `No hay menu selecionado`;
@@ -124,19 +127,22 @@ function carritoVacio() {
 }
 
 function finalizarQuiero() {
-  swal.fire(
-    "Elegiste el Menu correctamente",
-    "Pronto llegara a su mesa el pedido",
-    "success"
+  swal.fire( 
+
+   "Elegiste el Menu correctamente",
+   "Pronto llegara a su mesa el pedido",
+
     
-  );
+  )
+
+
   carrito = [];
   localStorage.setItem("carrito", JSON.stringify(carrito));
   actualizarCarrito();
   imprimirCarrito();
   carritoVacio();
-}
-
+  
+  }
 btnFinalizar.addEventListener("click", finalizarQuiero);
 
 actualizarCarrito();

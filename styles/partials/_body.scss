@@ -65,7 +65,7 @@
 
 .home__hero {
     padding-top: 50px;
-  }
+}
   .home__hero .container {
     width: 100%;
     display: flex;
@@ -76,6 +76,7 @@
     align-items: center;
     justify-content: center;
     gap: 1em;
+    font-size: 5em;
   }
   @media (max-width: 1200px) {
     .home__hero .container {
@@ -96,7 +97,7 @@
     }
   }
   .home__hero .container h2 {
-    font-size: 2em;
+    font-size: 6em;
     color: #2a2b3d;
     font-weight: 900;
     text-align: center;
@@ -164,28 +165,6 @@
     border-color: #a5eea0;
   }
 
-  .accionseccion4 {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    height: 150px;
-    padding: 0 29px 10px;
-    background-color: #77dd77;
-max-width: 900px;
-margin: 1em;
-
-.buttonaccion {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  min-height: 150px;
-  padding: 0 29px 10px;
-  background-color: #77dd77;
-max-width: 900px;
-margin: 1em;
-
-}
-}
 
 .containerprincipal {
 
