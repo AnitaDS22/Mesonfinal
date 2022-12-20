@@ -11,12 +11,13 @@
     border-radius: 0.35em;
     box-shadow: 0 2px 14px rgba(216, 217, 255, 0.66);
     cursor: pointer;
+    border-color: black;
   }
   .menu__card i {
     background: linear-gradient(180deg, #77dd77 21.85%, #a5eea0 104.32%);
     width: 74px;
     height: 74px;
-    color: #a5eea0;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +56,7 @@
   }
   .menu__card:hover i {
     background: #a5eea0;
-    color: #77dd77;
+    color: black;
   }
   .menu__card:hover h3,
   .menu__card:hover p {
@@ -147,22 +148,23 @@
     justify-content: center;
     flex-flow: row wrap;
     gap: 0.5em 1em;
+    border-color: black;
   }
   .categorias a {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #a5eea0;
+    color: black;
     font-size: 5em;
     font-weight: 700;
     border-radius: 0.35em;
     gap: 0;
-    border: 1px solid rgb(238, 238, 238);
+    border: 1px solid black;
     padding: 0.25em 1em;
   }
   .categorias a:hover {
     gap: 0.5em;
-    border-color: #a5eea0;
+    border-color: black;
   }
 
 
