@@ -132,4 +132,26 @@ body { background: linear-gradient(90deg, greenyellow, green )};
   text-align: center;
 }
 
+.accionseccion4 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  height: 110px;
+  padding: 0 29px 10px;
+max-width: 900px;
+margin: 1em;
+
+}
+.accionseccion4 .buttonaccion {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  min-height: 100px;
+  padding: 0 20px 10px;
+  background-color: #77dd77;
+max-width: 900px;
+margin: 1em;
+
+}
 

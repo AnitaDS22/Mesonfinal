@@ -132,8 +132,8 @@ function finalizarQuiero() {
    "Elegiste el Menu correctamente",
    "Pronto llegara a su mesa el pedido",
 
-    
   )
+  
 
 
   carrito = [];
@@ -143,6 +143,7 @@ function finalizarQuiero() {
   carritoVacio();
   
   }
+
 btnFinalizar.addEventListener("click", finalizarQuiero);
 
 actualizarCarrito();
