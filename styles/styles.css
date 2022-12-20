@@ -134,24 +134,41 @@ body { background: linear-gradient(90deg, greenyellow, green )};
 
 .accionseccion4 {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   flex-direction: column;
   position: relative;
-  height: 110px;
+  max-width: 1000px;
+  height: 50px;
   padding: 0 29px 10px;
-max-width: 900px;
 margin: 1em;
 
 }
 .accionseccion4 .buttonaccion {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   position: relative;
-  min-height: 100px;
+  height: 50px;
+  max-width: 1000px;
   padding: 0 20px 10px;
   background-color: #77dd77;
-max-width: 900px;
+min-width: 500px;
 margin: 1em;
+
+}
+
+.accionseccion4 .buttonaccion .input {
+width: fit-content;
+height: 50px;
+background-color: #42ab49;
+
+
+
+}
+.accionseccion4 .botonEnviar {
+
+ background: linear-gradient(180deg, #77dd77 21.85%, #a5eea0 104.32%);
+  
 
 }
 
