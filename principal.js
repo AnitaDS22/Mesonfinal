@@ -20,6 +20,8 @@ let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 const menusContainer = document.querySelector(".menus__container");
 
 consultarMenus().then((menus) => {
+  const reserva = document.querySelector("#opciondatosReserva").style.display = `block`;
+
   menus.forEach((menu) => {
     menusContainer.innerHTML += `<div class="menu__card">
         <h3> ${menu.opcion}</h3>
