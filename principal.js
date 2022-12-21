@@ -14,6 +14,7 @@ const catmenu2 = document.querySelector("#menu2");
 const catmenu3 = document.querySelector("#menu3");
 const catmenu4 = document.querySelector("#menu4");
 
+
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 const menusContainer = document.querySelector(".menus__container");
@@ -80,6 +81,8 @@ function actualizarCarrito() {
 }
 
 function imprimirCarrito() {
+  const reserva = document.querySelector("#opciondatosReserva").style.display = `none`;
+  
   listaCarrito.innerHTML = "";
   carrito.forEach((item) => {
     listaCarrito.innerHTML += `<li><div><img src="${item.imagen}" /> ${

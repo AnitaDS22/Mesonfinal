@@ -5,7 +5,7 @@
 @import "./partials/header.scss";
 @import "./partials/body.scss";
 
-body { background: linear-gradient(90deg, greenyellow, green )};
+body { background: linear-gradient(90deg, greenyellow, green )}
 
 * {
   margin: 0;
@@ -140,7 +140,7 @@ body { background: linear-gradient(90deg, greenyellow, green )};
   flex-direction: column;
   position: relative;
   max-width: 1000px;
-  height: 185px;
+  height: 190px;
   padding: 0 29px 10px;
   border-radius: 0.5em;
 margin: 1em;
@@ -173,7 +173,24 @@ background-color: #42ab49;
 .accionseccion4 .botonEnviar {
 
  background: linear-gradient(180deg, #77dd77 21.85%, #a5eea0 104.32%);
- max-width: 500px; 
+ max-width: 250px; 
+margin: 1em;
+border-radius: 0.5em;
+border-color: black;
+position: relative;
+ 
+}
+
+@media (max-width: 768px) {
+  .accionseccion4 {
+    max-width: 300px;
+  }
+
+  .accionseccion4.buttonaccion{
+    max-width: 300px;
+  }
+
+
 
 }
 
