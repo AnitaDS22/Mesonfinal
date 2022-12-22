@@ -19,7 +19,7 @@ body { background: linear-gradient(90deg, greenyellow, green )}
 
 .nav {
   position: absolute;
-  background-color: rgb(81, 230, 232);
+  background-color: linear-gradient(90deg, #22c1c3, #fdbb2d);
   top: 90px;
   width: 100%;
   height: 0;
@@ -190,7 +190,8 @@ position: relative;
     max-width: 300px;
   }
 
-
-
 }
 
+.colored-toast.swal2-html{
+color:#77dd77,
+}

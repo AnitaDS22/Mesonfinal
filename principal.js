@@ -147,7 +147,12 @@ btnFinalizar.onclick = ()  => {
   swal.fire ({
 title: 'Elegiste el Menu correctamente',
 text: 'Pronto llegara a su mesa el pedido',
-background: blue,
+toast: true,
+customClass: {
+  popup: 'colored-toast',
+
+}
+
 
   })
 
