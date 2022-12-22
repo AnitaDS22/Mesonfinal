@@ -83,7 +83,8 @@ function actualizarCarrito() {
 }
 
 function imprimirCarrito() {
-  const reserva = document.querySelector("#opciondatosReserva").style.display = `none`;
+  const reserva = document.querySelector("#opciondatosReserva").style.display='none';
+
   
   listaCarrito.innerHTML = "";
   carrito.forEach((item) => {
@@ -132,15 +133,6 @@ function carritoVacio() {
 }
 
 function finalizarQuiero() {
-  swal.fire( 
-
-   "Elegiste el Menu correctamente",
-   "Pronto llegara a su mesa el pedido",
-
-  )
-  
-
-
   carrito = [];
   localStorage.setItem("carrito", JSON.stringify(carrito));
   actualizarCarrito();
@@ -149,7 +141,19 @@ function finalizarQuiero() {
   
   }
 
-btnFinalizar.addEventListener("click", finalizarQuiero);
+/* btnFinalizar.addEventListener("click", finalizarQuiero)*/
+
+btnFinalizar.onclick = ()  => {
+  swal.fire ({
+title: 'Elegiste el Menu correctamente',
+text: 'Pronto llegara a su mesa el pedido',
+background: blue,
+
+  })
+
+  finalizarQuiero();
+
+}
 
 actualizarCarrito();
 imprimirCarrito();
