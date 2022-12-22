@@ -19,7 +19,7 @@ body { background: linear-gradient(90deg, greenyellow, green )}
 
 .nav {
   position: absolute;
-  background-color: linear-gradient(90deg, #22c1c3, #fdbb2d);
+  background-color:#a5eea0;
   top: 90px;
   width: 100%;
   height: 0;
