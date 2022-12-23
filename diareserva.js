@@ -67,16 +67,9 @@ botonEnviar.onclick = () => {
     footer: `<span> Recuerde cancelar 24 horas antes en caso de no poder concurrir</span>`,
     width: '50%',
     padding: '2rem',
-    icon: false,
 color: 'black',
    background: '#77dd77',
    timer: 3000,
-   //background:'#54e1ad',
-  // background:'#56ef65',
-
-
-  
-
 
   })
 

@@ -148,10 +148,8 @@ btnFinalizar.onclick = ()  => {
 title: 'Elegiste el Menu correctamente',
 text: 'Pronto llegara a su mesa el pedido',
 toast: true,
-customClass: {
-  popup: 'colored-toast',
-
-}
+background: '#336633',
+color: 'white',
 
 
   })
