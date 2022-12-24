@@ -215,6 +215,14 @@ border-color: white;
 width: fit-content;
 height: 50px;
 background-color: #336633;
+}
+
+@media (max-width: 575px) {
+  .accionseccion4 .buttonaccion {
+    max-width: 300px;
+  }
+
+
 
 
 
