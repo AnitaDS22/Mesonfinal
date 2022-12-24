@@ -169,4 +169,27 @@
     border-color: black;
   }
 
+  @media (max-width: 768px) {
+    .accionseccion4 {
+      width: 300px;
+    
+  
+    .buttonaccion{
+      width: 300px;
+    }
+  }
+  }
 
+  @media (max-width: 575px) {
+    .accionseccion4 {
+      width: 250px;
+      margin: auto;
+    
+  
+    .buttonaccion{
+      width: 250px;
+      margin: auto;
+    }
+  }
+
+  }

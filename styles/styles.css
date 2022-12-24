@@ -230,17 +230,6 @@ position: relative;
  
 }
 
-@media (max-width: 768px) {
-  .accionseccion4 {
-    max-width: 300px;
-  }
-
-  .accionseccion4.buttonaccion{
-    max-width: 300px;
-  }
-
-}
-
 .colored-toast.swal2-html{
 color:#77dd77,
 }
