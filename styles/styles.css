@@ -359,9 +359,9 @@ color: #25b81a,
     flex-direction: column;
     padding: 0.87em 0.87em;
     align-items: center;
-    gap: 1em;
+    gap: 0.1em;
     width: 346px;
-    height: 250px;
+    height: 320px;
     text-align: center;
     border-radius: 0.35em;
     box-shadow: 0 2px 14px rgba(216, 217, 255, 0.66);
@@ -383,6 +383,7 @@ color: #25b81a,
     color: #2a2b3d;
     font-size: 0.8em;
     font-weight: 800;
+  
   }
   .menu__card p {
     font-weight: 500;
