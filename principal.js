@@ -84,7 +84,6 @@ function actualizarCarrito() {
 
 function imprimirCarrito() {
   const reserva = document.querySelector("#opciondatosReserva").style.display='none';
-  
   listaCarrito.innerHTML = "";
   carrito.forEach((item) => {
     listaCarrito.innerHTML += `<li><div><img src="${item.imagen}" /> ${
@@ -94,6 +93,7 @@ function imprimirCarrito() {
     }<i class='bx bxs-trash' data-id='${item.opcion}'></i></div></li>`;
   });
   if (carrito !== []) {
+    document.querySelector("#contenedorPrincipal").style.display='none';
     const btnEliminar = document.querySelectorAll(".bxs-trash");
     btnEliminar.forEach((btn) => {
       btn.onclick = (e) => {
@@ -102,7 +102,6 @@ function imprimirCarrito() {
         localStorage.setItem("carrito", JSON.stringify(carrito));
         actualizarCarrito();
         imprimirCarrito();
-        document.querySelector("#contenedorPrincipal").style.display='none'
       };
     });
   }
