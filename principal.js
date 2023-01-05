@@ -84,7 +84,6 @@ function actualizarCarrito() {
 
 function imprimirCarrito() {
   const reserva = document.querySelector("#opciondatosReserva").style.display='none';
-
   
   listaCarrito.innerHTML = "";
   carrito.forEach((item) => {
@@ -103,6 +102,7 @@ function imprimirCarrito() {
         localStorage.setItem("carrito", JSON.stringify(carrito));
         actualizarCarrito();
         imprimirCarrito();
+        document.querySelector("#contenedorPrincipal").style.display='none'
       };
     });
   }
