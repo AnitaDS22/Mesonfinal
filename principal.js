@@ -129,7 +129,7 @@ function carritoVacio() {
   var SinMenu = `No hay menu selecionado`
   total.innerHTML = SinMenu;
   btnFinalizar.style.display = "none";
-  const reserva = document.querySelector("#opciondatosReserva").style.display='none';
+
 }
 
 function finalizarQuiero() {

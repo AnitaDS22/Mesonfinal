@@ -258,6 +258,28 @@ text-transform: uppercase;
  
 }
 
+@media (max-width: 992px) {
+  .accionseccion4{
+    max-width: 300px;
+
+  }
+}
+@media (max-width: 768px) { 
+  .accionseccion4 {
+    margin: auto;
+    width: 80%;
+  }
+}
+
+@media (max-width: 575px) {
+  .accionseccion4 { margin: auto;
+    width: 100%;
+  }
+}
+
+
+
+
 .colored-toast.swal2-html{
 color: #25b81a,
 }
