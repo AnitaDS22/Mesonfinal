@@ -129,7 +129,7 @@ function carritoVacio() {
   var SinMenu = `No hay menu selecionado`
   total.innerHTML = SinMenu;
   btnFinalizar.style.display = "none";
-  reserva.style.display = "none";
+  const reserva = document.querySelector("#opciondatosReserva").style.display='none';
 }
 
 function finalizarQuiero() {
@@ -150,8 +150,7 @@ text: 'Pronto llegara a su mesa el pedido',
 toast: true,
 background: '#336633',
 color: 'white',
-
-
+width: '500px',
   })
 
 
