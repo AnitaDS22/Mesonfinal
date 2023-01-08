@@ -126,8 +126,10 @@ function carritoLleno() {
 
 
 function carritoVacio() {
-  total.innerHTML = `No hay menu selecionado`;
+  var SinMenu = `No hay menu selecionado`
+  total.innerHTML = SinMenu;
   btnFinalizar.style.display = "none";
+  reserva.style.display = "none";
 }
 
 function finalizarQuiero() {
@@ -151,6 +153,7 @@ color: 'white',
 
 
   })
+
 
   finalizarQuiero();
 
