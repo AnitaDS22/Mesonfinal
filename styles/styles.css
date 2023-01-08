@@ -259,20 +259,20 @@ text-transform: uppercase;
 }
 
 @media (max-width: 992px) {
-  .accionseccion4{
+  .buttonaccion{
     max-width: 300px;
 
   }
 }
 @media (max-width: 768px) { 
-  .accionseccion4 {
+  .buttonaccion {
     margin: auto;
     width: 80%;
   }
 }
 
 @media (max-width: 575px) {
-  .accionseccion4 { margin: auto;
+  .buttonaccion { margin: auto;
     width: 100%;
   }
 }
@@ -332,6 +332,16 @@ color: #25b81a,
       padding: 100px 20px;
     }
   }
+
+@media (max-width: 575px){
+.home__hero .container{
+  max-width: 500px;
+  padding: 100px 40px;
+}
+
+}
+
+
   .home__hero .container h2 {
     font-size: 6em;
     color: #2a2b3d;
