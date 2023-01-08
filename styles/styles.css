@@ -31,6 +31,7 @@ body { background: linear-gradient(90deg, #2ddf21, #008000 )}
 .nav.active {
   visibility: visible;
   height: 100vh;
+  background-color: #008000;
 }
 
 .nav__list {

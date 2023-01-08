@@ -101,7 +101,6 @@ function imprimirCarrito() {
         localStorage.setItem("carrito", JSON.stringify(carrito));
         actualizarCarrito();
         imprimirCarrito();
-        document.querySelector("menusContainer").style.display='none';
       };
     });
   }
