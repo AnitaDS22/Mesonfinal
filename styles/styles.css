@@ -272,9 +272,14 @@ text-transform: uppercase;
 }
 
 @media (max-width: 575px) {
-  .buttonaccion { margin: auto;
-    width: 100%;
+  .buttonaccion { 
+    max-width: 300px;
+  
   }
+.accionseccion4{
+  max-width: 300px;
+}
+
 }
 
 
