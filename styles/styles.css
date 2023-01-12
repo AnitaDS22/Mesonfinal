@@ -139,6 +139,16 @@ font-size: 3em;
   border-color: white;
 }
 
+@media (max-width: 768px) {
+  .home__hero .container .categorias {flex-flow: column;}
+
+}
+
+@media (max-width: 575px) {
+  .home__hero .container .categorias {flex-flow: column;
+  }
+}
+
 .menus__container {
   display: flex;
   padding-top: 10px;
@@ -273,7 +283,7 @@ text-transform: uppercase;
 
 @media (max-width: 575px) {
   .buttonaccion { 
-    max-width: 300px;
+    width: 80%;
   
   }
 .accionseccion4{
@@ -320,28 +330,27 @@ color: #25b81a,
   @media (max-width: 1200px) {
     .home__hero .container {
       max-width: 1110px;
-      padding: 100px 40px;
+      min-width: 375px;
     }
 
   }
   @media (max-width: 992px) {
     .home__hero .container {
-      max-width: 1110px;
-      padding: 100px 40px;
+    width: 100%;
+     /* padding: 100px 40px;*/
     }
 
   }
   @media (max-width: 768px) {
     .home__hero .container {
-      max-width: 1110px;
-      padding: 100px 20px;
+      width: 100%;
+
     }
   }
 
 @media (max-width: 575px){
 .home__hero .container{
-  max-width: 500px;
-  padding: 100px 40px;
+width: 100%;
 }
 
 }
