@@ -17,7 +17,7 @@ const catmenu4 = document.querySelector("#menu4");
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
-const menusContainer = document.querySelector(".menus__container");
+const menusContainer = document.querySelector(".menus__Container");
 
 consultarMenus().then((menus) => {
   const reserva = document.querySelector("#opciondatosReserva").style.display = `block`;
