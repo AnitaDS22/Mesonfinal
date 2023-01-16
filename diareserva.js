@@ -65,11 +65,12 @@ botonEnviar.onclick = () => {
     tittle: `Bienvenido/a ${reservadelaCasa.nombre}`,
     text: `El día ${reservadelaCasa.dia} tienen una reserva a las ${reservadelaCasa.hora} para  ${reservadelaCasa.cantidad}`,
     footer: `<span> Recuerde cancelar 24 horas antes en caso de no poder concurrir</span>`,
+    showConfirmButton: false,
     width: '50%',
     padding: '2rem',
-color: 'black',
-   background: '#77dd77',
-   timer: 3000,
+color: 'white',
+   background: '#336633',
+   timer: 5000,
 
   })
 
