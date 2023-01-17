@@ -175,10 +175,14 @@ body {
   }
 
   .home__hero .container .titulo {
-    width: 80%;
-    padding: 4px;
+font-size: 15px;
   
   }
+  .home__hero .container h2 {
+width: min-content;    
+  }
+
+
 }
 
 .menus__Container {
@@ -323,23 +327,25 @@ body {
 
   }
 
+}
+
   @media (max-width: 410px) {
     .buttonaccion {
-      width: 80%;
+      width: 200px;
   
     }
 
   .accionseccion4 {
-    max-width: 300px;
+    max-width: 200px;
   }
   .accionseccion4 .buttonaccion {
-    max-width: 300px;
+    max-width: 200px;
   }
 
 
 }
 
-}
+
 
 
 .colored-toast.swal2-html {
@@ -389,7 +395,7 @@ body {
 @media (max-width: 992px) {
   .home__hero .container {
     width: 100%;
-    /* padding: 100px 40px;*/
+ 
   }
 
 }
@@ -402,6 +408,14 @@ body {
 }
 
 @media (max-width: 575px) {
+  .home__hero .container {
+    width: 100%;
+  }
+
+}
+
+
+@media (max-width: 460px) {
   .home__hero .container {
     width: 100%;
   }
