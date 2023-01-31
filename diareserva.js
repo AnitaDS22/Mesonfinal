@@ -20,7 +20,7 @@ const inputdatosCant = parseInt(document.getElementById('inputcantidad').value);
 const inputdatosDia = document.getElementById('inputDia').value;
 const inputdatosHora = parseInt(document.getElementById('inputHora').value);
 const inputdatosmail = document.getElementById('inputMail').value;
-
+const opciondatosReserv = document.getElementById ('opciondatosReserva');
 
 botonEnviar.onclick = () => {
 
@@ -88,3 +88,4 @@ botonAgenda.onclick = () => {
   const infoclienteResJSON = JSON.parse(localStorage.getItem('infoclienteResJSON'))
   console.log(infoclienteResJSON)
 }
+

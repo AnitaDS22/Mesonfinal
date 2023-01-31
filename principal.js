@@ -129,6 +129,7 @@ function carritoVacio() {
   var SinMenu = `No hay menu selecionado`
   total.innerHTML = SinMenu;
   btnFinalizar.style.display = "none";
+  opciondatosRceserv.style.display = "none";
 
 }
 
