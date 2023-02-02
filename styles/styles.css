@@ -32,7 +32,7 @@ body {
 
 .nav.active {
   visibility: visible;
-  height: 100vh;
+  min-height: 1000px;
   background-color: #008000;
 }
 
@@ -481,7 +481,7 @@ body {
   background-color: #a5eea0;
   display: flex;
   flex-direction: column;
-  padding: 0.87em 0.87em;
+  padding: 0.87em;
   align-items: center;
   gap: 0.1em;
   width: 346px;
@@ -497,11 +497,10 @@ body {
   background: linear-gradient(180deg, #77dd77 21.85%, #a5eea0 104.32%);
   width: 74px;
   height: 74px;
-  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 4em;
+  font-size: 6em;
   border-radius: 0.175em;
 }
 
@@ -536,7 +535,6 @@ body {
   .menu__card {
     margin: auto;
     width: 80%;
-  /*  height: 279px;*/
   }
 }
 
@@ -546,7 +544,6 @@ body {
     width: 80%;
   }
 }
-
 
 
 .menu__card:hover {
