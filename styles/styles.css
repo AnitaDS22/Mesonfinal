@@ -100,6 +100,22 @@ body {
   text-transform: uppercase;
 }
 
+.btn-volver {
+  
+    background: linear-gradient(90deg, rgb(19, 138, 96) 0%, rgb(23, 213, 168) 100%);
+    background-size: 110%;
+    color: #a5eea0;
+    font-size: 15px;
+    line-height: 1em;
+    padding: 0.6em 3em;
+    margin: 1em;
+    border-radius: 0.35em;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+  }
+
 
 .containerprincipal {
   display: flex;
@@ -240,7 +256,7 @@ body {
 
 #total {
   text-align: center;
-}
+  }
 
 .totalfinal {
   color: white;
@@ -560,3 +576,4 @@ body {
 .menu__card:hover p {
   color: black;
 }
+

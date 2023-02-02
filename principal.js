@@ -20,7 +20,7 @@ let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 const menusContainer = document.querySelector(".menus__Container");
 
 consultarMenus().then((menus) => {
-  
+
   menus.forEach((menu) => {
     menusContainer.innerHTML += `<div class="menu__card">
         <h3> ${menu.opcion}</h3>
@@ -127,10 +127,10 @@ function carritoLleno() {
 
 
 function carritoVacio() {
-  var SinMenu = `No hay menu selecionado`
-  total.innerHTML = SinMenu;
-  btnFinalizar.style.display = "none";
-  opciondatosRceserv.style.display = "none";
+var SinMenu = "NO HAY MENU SELECCIONADO";
+total.innerHTML = SinMenu;
+btnFinalizar.style.display = "none";
+  opciondatosReserv.style.display = "none";
 
 }
 
@@ -142,8 +142,6 @@ function finalizarQuiero() {
   carritoVacio();
   
   }
-
-/* btnFinalizar.addEventListener("click", finalizarQuiero)*/
 
 btnFinalizar.onclick = ()  => {
   swal.fire ({
