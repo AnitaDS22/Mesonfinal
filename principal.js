@@ -127,11 +127,11 @@ function carritoLleno() {
 
 
 function carritoVacio() {
+const reservavacio = document.querySelector("#opciondatosReserva").style.display='none';
 var SinMenu = "NO HAY MENU SELECCIONADO";
 total.innerHTML = SinMenu;
 btnFinalizar.style.display = "none";
-document.querySelector(".hide");
-div.classlist.add("opciondatosReserv");
+
 
 }
 
@@ -149,7 +149,7 @@ btnFinalizar.onclick = ()  => {
 title: 'Elegiste el Menu correctamente',
 text: 'Pronto llegara a su mesa el pedido',
 toast: true,
-background: '#336633',
+background: '#17d5a8',
 color: 'white',
 width: '500px',
   })

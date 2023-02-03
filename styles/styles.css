@@ -28,12 +28,14 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  gap: 0.8em;
 }
 
 .nav.active {
   visibility: visible;
   min-height: 1000px;
   background-color: #008000;
+  margin-top: 0px;
 }
 
 .nav__list {
@@ -49,6 +51,7 @@ body {
   color: white;
   min-width: 300px;
   border-radius: 0.5em;
+  gap: 2em;
   text-align: center;
   display: flex;
   align-items: center;
@@ -62,15 +65,17 @@ body {
 
 .btn-primary {
   background: linear-gradient(90deg, rgb(19, 138, 96) 0%, rgb(23, 213, 168) 100%);
-  background-size: 110%;
-  color: #a5eea0;
+  background-size: 80%;
+  color: #9ed99a;
   font-size: 15px;
   line-height: 1em;
+  margin: 1em;
   padding: 0.6em 3em;
   border-radius: 0.35em;
   font-weight: 900;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
 }
 
 .btn-primary:hover {
@@ -80,12 +85,11 @@ body {
 
 .btn-secondary {
   color: #0db146;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1em;
-  padding: 1em 2em;
+  padding: 0.6em 3em;
   border-radius: 0.35em;
   font-weight: 900;
-  border: 1px solid #0db146;
   text-transform: uppercase;
 }
 
@@ -103,7 +107,7 @@ body {
 .btn-volver {
   
     background: linear-gradient(90deg, rgb(19, 138, 96) 0%, rgb(23, 213, 168) 100%);
-    background-size: 110%;
+    background-size: 80%;
     color: #a5eea0;
     font-size: 15px;
     line-height: 1em;
@@ -116,10 +120,10 @@ body {
     text-align: center;
   }
 
-  .hide {
-    opacity: 40em;
+  .btn-volver:hover {
+    background-position: 200px 100px;
+    color: white; 
   }
-
 
 .containerprincipal {
   display: flex;
@@ -162,11 +166,16 @@ body {
   border-color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .home__hero .container .categorias {
     flex-flow: column;
     gap: 1em;
   }
+  .containerprincipal h2 .titulo {
+    padding: 3px;
+    font-size: 10px;
+  }
+
 
   .home__hero .container h2 {
     width: 80%;
