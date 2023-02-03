@@ -152,10 +152,14 @@ toast: true,
 background: '#17d5a8',
 color: 'white',
 width: '500px',
+height: '1000px',
+position: 'top',
   })
 
 
   finalizarQuiero();
+  SinMenu.style.display = "none";
+
 
 }
 

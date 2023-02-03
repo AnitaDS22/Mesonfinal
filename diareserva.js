@@ -21,6 +21,7 @@ const inputdatosDia = document.getElementById('inputDia').value;
 const inputdatosHora = parseInt(document.getElementById('inputHora').value);
 const inputdatosmail = document.getElementById('inputMail').value;
 const opciondatosReserv = document.getElementById ('opciondatosReserva');
+const accionSeccion = document.getElementById ('accionseccion4');
 
 botonEnviar.onclick = () => {
 
