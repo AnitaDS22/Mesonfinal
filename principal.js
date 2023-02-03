@@ -130,7 +130,8 @@ function carritoVacio() {
 var SinMenu = "NO HAY MENU SELECCIONADO";
 total.innerHTML = SinMenu;
 btnFinalizar.style.display = "none";
-  opciondatosReserv.style.display = "none";
+document.querySelector(".hide");
+div.classlist.add("opciondatosReserv");
 
 }
 

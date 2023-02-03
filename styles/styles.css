@@ -116,6 +116,10 @@ body {
     text-align: center;
   }
 
+  .hide {
+    opacity: 40em;
+  }
+
 
 .containerprincipal {
   display: flex;
@@ -262,7 +266,6 @@ body {
   color: white;
   font-size: 35px;
   padding: 1em;
-
 
 }
 
