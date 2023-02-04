@@ -33,8 +33,6 @@ consultarMenus().then((menus) => {
       </div>`;
   });
   btnQuiero(menus);
-
-  const reserva = document.querySelector("#opciondatosReserva").style.display = `block`;
 });
 
 function buscarCategoria(opcion) {
@@ -84,7 +82,6 @@ function actualizarCarrito() {
 }
 
 function imprimirCarrito() {
-  const reserva = document.querySelector("#opciondatosReserva").style.display='none';
   listaCarrito.innerHTML = "";
   carrito.forEach((item) => {
     listaCarrito.innerHTML += `<li><div><img src="${item.imagen}" /> ${
@@ -127,7 +124,6 @@ function carritoLleno() {
 
 
 function carritoVacio() {
-const reservavacio = document.querySelector("#opciondatosReserva").style.display='none';
 var SinMenu = "NO HAY MENU SELECCIONADO";
 total.innerHTML = SinMenu;
 btnFinalizar.style.display = "none";
